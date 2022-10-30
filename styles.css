@@ -40,6 +40,8 @@ Variables
   --clr-white: #fff;
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
+  --clr-blue-light: hsl(195, 100%, 50%);
+  --clr-blue-dark: hsl(225, 100%, 50%);
   --clr-green-dark: hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
   --clr-black: #222;
@@ -296,10 +298,10 @@ Grocery List
   transition: var(--transition);
 }
 .edit-btn {
-  color: var(--clr-green-light);
+  color: var(--clr-blue-light);
 }
 .edit-btn:hover {
-  color: var(--clr-green-dark);
+  color: var(--clr-blue-dark);
 }
 .delete-btn {
   color: var(--clr-red-light);
